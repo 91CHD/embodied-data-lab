@@ -1,0 +1,101 @@
+{
+  "recorded_at": "2026-10-22T12:24:04.430323+00:00",
+  "scope": "Real CPU dataset validation; not model training or policy benchmark",
+  "commands": [
+    "bash scripts/stop.sh",
+    "bash scripts/dev.sh",
+    "HTTP POST /api/jobs type=validate -> GET job/report -> artifact download"
+  ],
+  "stop_checks": {
+    "api_stopped": true,
+    "frontend_stopped": true,
+    "postgres_stopped": true,
+    "postgres_check": "127.0.0.1:55432 - no response"
+  },
+  "startup_checks": {
+    "api_health": {
+      "status": "ok",
+      "database": "postgresql"
+    },
+    "frontend_http_status": 200,
+    "worker_health_exit_code": 0,
+    "api_pid": 57295,
+    "worker_pid": 57300,
+    "frontend_pid": 57305,
+    "uvicorn_graceful_shutdown_seconds": 3
+  },
+  "persistence": {
+    "datasets_before": [
+      {
+        "id": "fcde969a-62b9-4828-9ee6-4be766f99d33",
+        "fingerprint": "6afd5d26744197743d92ef8afea20edb9da74420a488a585f34907c258282280"
+      },
+      {
+        "id": "16a6012e-32ad-439b-9cb6-1b0491f21e0b",
+        "fingerprint": "9b0297b095a3413db79b882e7f3b19625357304c1a39f20d833bc7b349dbd561"
+      }
+    ],
+    "datasets_after": [
+      {
+        "id": "fcde969a-62b9-4828-9ee6-4be766f99d33",
+        "fingerprint": "6afd5d26744197743d92ef8afea20edb9da74420a488a585f34907c258282280"
+      },
+      {
+        "id": "16a6012e-32ad-439b-9cb6-1b0491f21e0b",
+        "fingerprint": "9b0297b095a3413db79b882e7f3b19625357304c1a39f20d833bc7b349dbd561"
+      }
+    ],
+    "experiments_before": [
+      {
+        "id": "3315ba21-a19e-4690-9928-391c70f8b581",
+        "name": "平台联调演示 B · 合成结果"
+      },
+      {
+        "id": "85aa0f84-c7dd-4edc-b5e2-d26d1334e771",
+        "name": "平台联调演示 A · 合成结果"
+      }
+    ],
+    "experiments_after": [
+      {
+        "id": "3315ba21-a19e-4690-9928-391c70f8b581",
+        "name": "平台联调演示 B · 合成结果"
+      },
+      {
+        "id": "85aa0f84-c7dd-4edc-b5e2-d26d1334e771",
+        "name": "平台联调演示 A · 合成结果"
+      }
+    ],
+    "jobs_count_before": 4,
+    "jobs_count_after_restart_before_new_job": 4,
+    "dataset_ids_fingerprints_equal": true,
+    "experiment_ids_equal": true
+  },
+  "cpu_quality_run": {
+    "job_id": "810c0439-fcea-4271-8b20-56713917e722",
+    "status": "succeeded",
+    "attempt": 1,
+    "dataset_id": "16a6012e-32ad-439b-9cb6-1b0491f21e0b",
+    "data_source_kind": "public",
+    "source_kind": "executed",
+    "adapter_version": "eld-lerobot-v3-2",
+    "summary": {
+      "episodes_checked": 206,
+      "frames_checked": 25650,
+      "errors": 0,
+      "warnings": 0,
+      "valid": true,
+      "issue_counts_by_rule": {},
+      "issues_recorded": 0,
+      "issues_truncated": false
+    },
+    "artifact": {
+      "id": "c8fad8fc-f96f-43ac-953f-ae786bdda943",
+      "url": "/api/artifacts/c8fad8fc-f96f-43ac-953f-ae786bdda943/download",
+      "sha256": "64082e3e56880450386a70625d79e41ea17b5cbba5ea63214e3fa2a53371bb97",
+      "size": 76475,
+      "download_sha256_verified": true
+    }
+  },
+  "docker_runtime_verified": false,
+  "training_simulation_executed": false
+}

@@ -1,0 +1,3126 @@
+{
+  "report_type": "quality",
+  "adapter_version": "eld-lerobot-v3-2",
+  "dataset_fingerprint": "9b0297b095a3413db79b882e7f3b19625357304c1a39f20d833bc7b349dbd561",
+  "summary": {
+    "episodes_checked": 206,
+    "frames_checked": 25650,
+    "errors": 0,
+    "warnings": 0,
+    "valid": true,
+    "issue_counts_by_rule": {},
+    "issues_recorded": 0,
+    "issues_truncated": false
+  },
+  "issues": [],
+  "video_checks": [
+    {
+      "episode_index": 0,
+      "camera": "observation.image",
+      "first_target": 0.0,
+      "last_target": 16.0,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        0.0,
+        16.0
+      ]
+    },
+    {
+      "episode_index": 1,
+      "camera": "observation.image",
+      "first_target": 16.1,
+      "last_target": 27.799999809265138,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        16.1,
+        27.8
+      ]
+    },
+    {
+      "episode_index": 2,
+      "camera": "observation.image",
+      "first_target": 27.900000000000002,
+      "last_target": 41.900000000000006,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        27.9,
+        41.9
+      ]
+    },
+    {
+      "episode_index": 3,
+      "camera": "observation.image",
+      "first_target": 42.0,
+      "last_target": 57.80000019073486,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        42.0,
+        57.8
+      ]
+    },
+    {
+      "episode_index": 4,
+      "camera": "observation.image",
+      "first_target": 57.9,
+      "last_target": 73.70000019073487,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        57.9,
+        73.7
+      ]
+    },
+    {
+      "episode_index": 5,
+      "camera": "observation.image",
+      "first_target": 73.8,
+      "last_target": 89.40000038146972,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        73.8,
+        89.4
+      ]
+    },
+    {
+      "episode_index": 6,
+      "camera": "observation.image",
+      "first_target": 89.5,
+      "last_target": 96.30000019073486,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        89.5,
+        96.3
+      ]
+    },
+    {
+      "episode_index": 7,
+      "camera": "observation.image",
+      "first_target": 96.4,
+      "last_target": 113.19999923706055,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        96.4,
+        113.2
+      ]
+    },
+    {
+      "episode_index": 8,
+      "camera": "observation.image",
+      "first_target": 113.30000000000001,
+      "last_target": 121.20000009536744,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        113.3,
+        121.2
+      ]
+    },
+    {
+      "episode_index": 9,
+      "camera": "observation.image",
+      "first_target": 121.30000000000001,
+      "last_target": 134.60000019073487,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        121.3,
+        134.6
+      ]
+    },
+    {
+      "episode_index": 10,
+      "camera": "observation.image",
+      "first_target": 134.70000000000002,
+      "last_target": 153.40000076293947,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        134.7,
+        153.4
+      ]
+    },
+    {
+      "episode_index": 11,
+      "camera": "observation.image",
+      "first_target": 153.50000000000003,
+      "last_target": 168.3000001907349,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        153.5,
+        168.3
+      ]
+    },
+    {
+      "episode_index": 12,
+      "camera": "observation.image",
+      "first_target": 168.40000000000003,
+      "last_target": 182.2999996185303,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        168.4,
+        182.3
+      ]
+    },
+    {
+      "episode_index": 13,
+      "camera": "observation.image",
+      "first_target": 182.40000000000003,
+      "last_target": 194.7999996185303,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        182.4,
+        194.8
+      ]
+    },
+    {
+      "episode_index": 14,
+      "camera": "observation.image",
+      "first_target": 194.90000000000003,
+      "last_target": 205.50000038146976,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        194.9,
+        205.5
+      ]
+    },
+    {
+      "episode_index": 15,
+      "camera": "observation.image",
+      "first_target": 205.60000000000002,
+      "last_target": 220.79999980926516,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        205.6,
+        220.8
+      ]
+    },
+    {
+      "episode_index": 16,
+      "camera": "observation.image",
+      "first_target": 220.90000000000003,
+      "last_target": 233.40000000000003,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        220.9,
+        233.4
+      ]
+    },
+    {
+      "episode_index": 17,
+      "camera": "observation.image",
+      "first_target": 233.50000000000003,
+      "last_target": 243.60000038146975,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        233.5,
+        243.6
+      ]
+    },
+    {
+      "episode_index": 18,
+      "camera": "observation.image",
+      "first_target": 243.70000000000002,
+      "last_target": 252.20000000000002,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        243.7,
+        252.2
+      ]
+    },
+    {
+      "episode_index": 19,
+      "camera": "observation.image",
+      "first_target": 252.3,
+      "last_target": 259.70000009536744,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        252.3,
+        259.7
+      ]
+    },
+    {
+      "episode_index": 20,
+      "camera": "observation.image",
+      "first_target": 259.8,
+      "last_target": 273.90000038146974,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        259.8,
+        273.9
+      ]
+    },
+    {
+      "episode_index": 21,
+      "camera": "observation.image",
+      "first_target": 274.0,
+      "last_target": 285.3999996185303,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        274.0,
+        285.4
+      ]
+    },
+    {
+      "episode_index": 22,
+      "camera": "observation.image",
+      "first_target": 285.5,
+      "last_target": 296.30000019073486,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        285.5,
+        296.3
+      ]
+    },
+    {
+      "episode_index": 23,
+      "camera": "observation.image",
+      "first_target": 296.4,
+      "last_target": 307.29999961853025,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        296.4,
+        307.3
+      ]
+    },
+    {
+      "episode_index": 24,
+      "camera": "observation.image",
+      "first_target": 307.4,
+      "last_target": 317.0999998092651,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        307.4,
+        317.1
+      ]
+    },
+    {
+      "episode_index": 25,
+      "camera": "observation.image",
+      "first_target": 317.2,
+      "last_target": 330.3999998092651,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        317.2,
+        330.4
+      ]
+    },
+    {
+      "episode_index": 26,
+      "camera": "observation.image",
+      "first_target": 330.5,
+      "last_target": 346.19999980926514,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        330.5,
+        346.2
+      ]
+    },
+    {
+      "episode_index": 27,
+      "camera": "observation.image",
+      "first_target": 346.3,
+      "last_target": 357.40000038146974,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        346.3,
+        357.4
+      ]
+    },
+    {
+      "episode_index": 28,
+      "camera": "observation.image",
+      "first_target": 357.5,
+      "last_target": 368.1000003814697,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        357.5,
+        368.1
+      ]
+    },
+    {
+      "episode_index": 29,
+      "camera": "observation.image",
+      "first_target": 368.2,
+      "last_target": 379.59999961853026,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        368.2,
+        379.6
+      ]
+    },
+    {
+      "episode_index": 30,
+      "camera": "observation.image",
+      "first_target": 379.7,
+      "last_target": 388.00000019073485,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        379.7,
+        388.0
+      ]
+    },
+    {
+      "episode_index": 31,
+      "camera": "observation.image",
+      "first_target": 388.09999999999997,
+      "last_target": 397.49999961853024,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        388.1,
+        397.5
+      ]
+    },
+    {
+      "episode_index": 32,
+      "camera": "observation.image",
+      "first_target": 397.59999999999997,
+      "last_target": 412.2999998092651,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        397.6,
+        412.3
+      ]
+    },
+    {
+      "episode_index": 33,
+      "camera": "observation.image",
+      "first_target": 412.4,
+      "last_target": 424.29999961853025,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        412.4,
+        424.3
+      ]
+    },
+    {
+      "episode_index": 34,
+      "camera": "observation.image",
+      "first_target": 424.4,
+      "last_target": 438.5000003814697,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        424.4,
+        438.5
+      ]
+    },
+    {
+      "episode_index": 35,
+      "camera": "observation.image",
+      "first_target": 438.59999999999997,
+      "last_target": 452.7999998092651,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        438.6,
+        452.8
+      ]
+    },
+    {
+      "episode_index": 36,
+      "camera": "observation.image",
+      "first_target": 452.9,
+      "last_target": 467.0000003814697,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        452.9,
+        467.0
+      ]
+    },
+    {
+      "episode_index": 37,
+      "camera": "observation.image",
+      "first_target": 467.09999999999997,
+      "last_target": 479.09999999999997,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        467.1,
+        479.1
+      ]
+    },
+    {
+      "episode_index": 38,
+      "camera": "observation.image",
+      "first_target": 479.2,
+      "last_target": 497.7,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        479.2,
+        497.7
+      ]
+    },
+    {
+      "episode_index": 39,
+      "camera": "observation.image",
+      "first_target": 497.8,
+      "last_target": 507.6000001907349,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        497.8,
+        507.6
+      ]
+    },
+    {
+      "episode_index": 40,
+      "camera": "observation.image",
+      "first_target": 507.7,
+      "last_target": 521.5000001907349,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        507.7,
+        521.5
+      ]
+    },
+    {
+      "episode_index": 41,
+      "camera": "observation.image",
+      "first_target": 521.6,
+      "last_target": 528.7999998092652,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        521.6,
+        528.8
+      ]
+    },
+    {
+      "episode_index": 42,
+      "camera": "observation.image",
+      "first_target": 528.9,
+      "last_target": 542.4,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        528.9,
+        542.4
+      ]
+    },
+    {
+      "episode_index": 43,
+      "camera": "observation.image",
+      "first_target": 542.5,
+      "last_target": 554.1999998092651,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        542.5,
+        554.2
+      ]
+    },
+    {
+      "episode_index": 44,
+      "camera": "observation.image",
+      "first_target": 554.3,
+      "last_target": 566.9000003814697,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        554.3,
+        566.9
+      ]
+    },
+    {
+      "episode_index": 45,
+      "camera": "observation.image",
+      "first_target": 567.0,
+      "last_target": 582.1000003814697,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        567.0,
+        582.1
+      ]
+    },
+    {
+      "episode_index": 46,
+      "camera": "observation.image",
+      "first_target": 582.2,
+      "last_target": 590.3999998092652,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        582.2,
+        590.4
+      ]
+    },
+    {
+      "episode_index": 47,
+      "camera": "observation.image",
+      "first_target": 590.5,
+      "last_target": 601.3000001907349,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        590.5,
+        601.3
+      ]
+    },
+    {
+      "episode_index": 48,
+      "camera": "observation.image",
+      "first_target": 601.4,
+      "last_target": 615.0999998092651,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        601.4,
+        615.1
+      ]
+    },
+    {
+      "episode_index": 49,
+      "camera": "observation.image",
+      "first_target": 615.1999999999999,
+      "last_target": 623.3999998092651,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        615.2,
+        623.4
+      ]
+    },
+    {
+      "episode_index": 50,
+      "camera": "observation.image",
+      "first_target": 623.4999999999999,
+      "last_target": 630.3000001907347,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        623.5,
+        630.3
+      ]
+    },
+    {
+      "episode_index": 51,
+      "camera": "observation.image",
+      "first_target": 630.3999999999999,
+      "last_target": 637.599999809265,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        630.4,
+        637.6
+      ]
+    },
+    {
+      "episode_index": 52,
+      "camera": "observation.image",
+      "first_target": 637.6999999999998,
+      "last_target": 651.1999999999998,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        637.7,
+        651.2
+      ]
+    },
+    {
+      "episode_index": 53,
+      "camera": "observation.image",
+      "first_target": 651.2999999999998,
+      "last_target": 668.5000007629393,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        651.3,
+        668.5
+      ]
+    },
+    {
+      "episode_index": 54,
+      "camera": "observation.image",
+      "first_target": 668.5999999999998,
+      "last_target": 688.9999996185301,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        668.6,
+        689.0
+      ]
+    },
+    {
+      "episode_index": 55,
+      "camera": "observation.image",
+      "first_target": 689.0999999999998,
+      "last_target": 699.5999999999998,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        689.1,
+        699.6
+      ]
+    },
+    {
+      "episode_index": 56,
+      "camera": "observation.image",
+      "first_target": 699.6999999999998,
+      "last_target": 710.0999996185301,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        699.7,
+        710.1
+      ]
+    },
+    {
+      "episode_index": 57,
+      "camera": "observation.image",
+      "first_target": 710.1999999999998,
+      "last_target": 718.399999809265,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        710.2,
+        718.4
+      ]
+    },
+    {
+      "episode_index": 58,
+      "camera": "observation.image",
+      "first_target": 718.4999999999998,
+      "last_target": 730.1999998092649,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        718.5,
+        730.2
+      ]
+    },
+    {
+      "episode_index": 59,
+      "camera": "observation.image",
+      "first_target": 730.2999999999997,
+      "last_target": 742.4000003814695,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        730.3,
+        742.4
+      ]
+    },
+    {
+      "episode_index": 60,
+      "camera": "observation.image",
+      "first_target": 742.4999999999998,
+      "last_target": 748.4000000953672,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        742.5,
+        748.4
+      ]
+    },
+    {
+      "episode_index": 61,
+      "camera": "observation.image",
+      "first_target": 748.4999999999998,
+      "last_target": 763.39999961853,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        748.5,
+        763.4
+      ]
+    },
+    {
+      "episode_index": 62,
+      "camera": "observation.image",
+      "first_target": 763.4999999999998,
+      "last_target": 770.0999999046323,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        763.5,
+        770.1
+      ]
+    },
+    {
+      "episode_index": 63,
+      "camera": "observation.image",
+      "first_target": 770.1999999999998,
+      "last_target": 784.0999996185301,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        770.2,
+        784.1
+      ]
+    },
+    {
+      "episode_index": 64,
+      "camera": "observation.image",
+      "first_target": 784.1999999999998,
+      "last_target": 794.399999809265,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        784.2,
+        794.4
+      ]
+    },
+    {
+      "episode_index": 65,
+      "camera": "observation.image",
+      "first_target": 794.4999999999998,
+      "last_target": 810.9999999999998,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        794.5,
+        811.0
+      ]
+    },
+    {
+      "episode_index": 66,
+      "camera": "observation.image",
+      "first_target": 811.0999999999998,
+      "last_target": 817.6999999046324,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        811.1,
+        817.7
+      ]
+    },
+    {
+      "episode_index": 67,
+      "camera": "observation.image",
+      "first_target": 817.7999999999998,
+      "last_target": 828.1000001907347,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        817.8,
+        828.1
+      ]
+    },
+    {
+      "episode_index": 68,
+      "camera": "observation.image",
+      "first_target": 828.1999999999998,
+      "last_target": 837.0999996185301,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        828.2,
+        837.1
+      ]
+    },
+    {
+      "episode_index": 69,
+      "camera": "observation.image",
+      "first_target": 837.1999999999998,
+      "last_target": 852.0999996185301,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        837.2,
+        852.1
+      ]
+    },
+    {
+      "episode_index": 70,
+      "camera": "observation.image",
+      "first_target": 852.1999999999998,
+      "last_target": 870.6999999999998,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        852.2,
+        870.7
+      ]
+    },
+    {
+      "episode_index": 71,
+      "camera": "observation.image",
+      "first_target": 870.7999999999998,
+      "last_target": 884.1000001907347,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        870.8,
+        884.1
+      ]
+    },
+    {
+      "episode_index": 72,
+      "camera": "observation.image",
+      "first_target": 884.1999999999998,
+      "last_target": 898.899999809265,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        884.2,
+        898.9
+      ]
+    },
+    {
+      "episode_index": 73,
+      "camera": "observation.image",
+      "first_target": 898.9999999999998,
+      "last_target": 910.1000003814695,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        899.0,
+        910.1
+      ]
+    },
+    {
+      "episode_index": 74,
+      "camera": "observation.image",
+      "first_target": 910.1999999999998,
+      "last_target": 921.899999809265,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        910.2,
+        921.9
+      ]
+    },
+    {
+      "episode_index": 75,
+      "camera": "observation.image",
+      "first_target": 921.9999999999998,
+      "last_target": 931.6999998092649,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        922.0,
+        931.7
+      ]
+    },
+    {
+      "episode_index": 76,
+      "camera": "observation.image",
+      "first_target": 931.7999999999997,
+      "last_target": 940.6000001907346,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        931.8,
+        940.6
+      ]
+    },
+    {
+      "episode_index": 77,
+      "camera": "observation.image",
+      "first_target": 940.6999999999997,
+      "last_target": 952.8000003814694,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        940.7,
+        952.8
+      ]
+    },
+    {
+      "episode_index": 78,
+      "camera": "observation.image",
+      "first_target": 952.8999999999997,
+      "last_target": 970.3999999999997,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        952.9,
+        970.4
+      ]
+    },
+    {
+      "episode_index": 79,
+      "camera": "observation.image",
+      "first_target": 970.4999999999998,
+      "last_target": 977.4000000953672,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        970.5,
+        977.4
+      ]
+    },
+    {
+      "episode_index": 80,
+      "camera": "observation.image",
+      "first_target": 977.4999999999998,
+      "last_target": 989.1000003814695,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        977.5,
+        989.1
+      ]
+    },
+    {
+      "episode_index": 81,
+      "camera": "observation.image",
+      "first_target": 989.1999999999998,
+      "last_target": 1000.399999809265,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        989.2,
+        1000.4
+      ]
+    },
+    {
+      "episode_index": 82,
+      "camera": "observation.image",
+      "first_target": 1000.4999999999998,
+      "last_target": 1009.8000001907346,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1000.5,
+        1009.8
+      ]
+    },
+    {
+      "episode_index": 83,
+      "camera": "observation.image",
+      "first_target": 1009.8999999999997,
+      "last_target": 1023.7000001907346,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1009.9,
+        1023.7
+      ]
+    },
+    {
+      "episode_index": 84,
+      "camera": "observation.image",
+      "first_target": 1023.7999999999997,
+      "last_target": 1031.7000000953672,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1023.8,
+        1031.7
+      ]
+    },
+    {
+      "episode_index": 85,
+      "camera": "observation.image",
+      "first_target": 1031.7999999999997,
+      "last_target": 1042.7999999999997,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1031.8,
+        1042.8
+      ]
+    },
+    {
+      "episode_index": 86,
+      "camera": "observation.image",
+      "first_target": 1042.8999999999996,
+      "last_target": 1053.2000001907345,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1042.9,
+        1053.2
+      ]
+    },
+    {
+      "episode_index": 87,
+      "camera": "observation.image",
+      "first_target": 1053.2999999999997,
+      "last_target": 1064.69999961853,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1053.3,
+        1064.7
+      ]
+    },
+    {
+      "episode_index": 88,
+      "camera": "observation.image",
+      "first_target": 1064.7999999999997,
+      "last_target": 1072.7999999999997,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1064.8,
+        1072.8
+      ]
+    },
+    {
+      "episode_index": 89,
+      "camera": "observation.image",
+      "first_target": 1072.8999999999996,
+      "last_target": 1086.5999998092648,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1072.9,
+        1086.6
+      ]
+    },
+    {
+      "episode_index": 90,
+      "camera": "observation.image",
+      "first_target": 1086.6999999999996,
+      "last_target": 1097.5000001907345,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1086.7,
+        1097.5
+      ]
+    },
+    {
+      "episode_index": 91,
+      "camera": "observation.image",
+      "first_target": 1097.5999999999997,
+      "last_target": 1107.5999999999997,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1097.6,
+        1107.6
+      ]
+    },
+    {
+      "episode_index": 92,
+      "camera": "observation.image",
+      "first_target": 1107.6999999999996,
+      "last_target": 1115.3999998092647,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1107.7,
+        1115.4
+      ]
+    },
+    {
+      "episode_index": 93,
+      "camera": "observation.image",
+      "first_target": 1115.4999999999995,
+      "last_target": 1121.8000001907344,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1115.5,
+        1121.8
+      ]
+    },
+    {
+      "episode_index": 94,
+      "camera": "observation.image",
+      "first_target": 1121.8999999999996,
+      "last_target": 1128.4999999046322,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1121.9,
+        1128.5
+      ]
+    },
+    {
+      "episode_index": 95,
+      "camera": "observation.image",
+      "first_target": 1128.5999999999997,
+      "last_target": 1139.2000003814694,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1128.6,
+        1139.2
+      ]
+    },
+    {
+      "episode_index": 96,
+      "camera": "observation.image",
+      "first_target": 1139.2999999999997,
+      "last_target": 1158.19999961853,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1139.3,
+        1158.2
+      ]
+    },
+    {
+      "episode_index": 97,
+      "camera": "observation.image",
+      "first_target": 1158.2999999999997,
+      "last_target": 1169.2999999999997,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1158.3,
+        1169.3
+      ]
+    },
+    {
+      "episode_index": 98,
+      "camera": "observation.image",
+      "first_target": 1169.3999999999996,
+      "last_target": 1176.0999998092648,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1169.4,
+        1176.1
+      ]
+    },
+    {
+      "episode_index": 99,
+      "camera": "observation.image",
+      "first_target": 1176.1999999999996,
+      "last_target": 1184.3000003814693,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1176.2,
+        1184.3
+      ]
+    },
+    {
+      "episode_index": 100,
+      "camera": "observation.image",
+      "first_target": 1184.3999999999996,
+      "last_target": 1196.0000003814694,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1184.4,
+        1196.0
+      ]
+    },
+    {
+      "episode_index": 101,
+      "camera": "observation.image",
+      "first_target": 1196.0999999999997,
+      "last_target": 1205.2000003814694,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1196.1,
+        1205.2
+      ]
+    },
+    {
+      "episode_index": 102,
+      "camera": "observation.image",
+      "first_target": 1205.2999999999997,
+      "last_target": 1216.6000001907346,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1205.3,
+        1216.6
+      ]
+    },
+    {
+      "episode_index": 103,
+      "camera": "observation.image",
+      "first_target": 1216.6999999999998,
+      "last_target": 1230.6999999999998,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1216.7,
+        1230.7
+      ]
+    },
+    {
+      "episode_index": 104,
+      "camera": "observation.image",
+      "first_target": 1230.7999999999997,
+      "last_target": 1244.4000003814695,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1230.8,
+        1244.4
+      ]
+    },
+    {
+      "episode_index": 105,
+      "camera": "observation.image",
+      "first_target": 1244.4999999999998,
+      "last_target": 1251.9000000953672,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1244.5,
+        1251.9
+      ]
+    },
+    {
+      "episode_index": 106,
+      "camera": "observation.image",
+      "first_target": 1251.9999999999998,
+      "last_target": 1264.4999999999998,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1252.0,
+        1264.5
+      ]
+    },
+    {
+      "episode_index": 107,
+      "camera": "observation.image",
+      "first_target": 1264.5999999999997,
+      "last_target": 1284.2000003814694,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1264.6,
+        1284.2
+      ]
+    },
+    {
+      "episode_index": 108,
+      "camera": "observation.image",
+      "first_target": 1284.2999999999997,
+      "last_target": 1295.4000003814695,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1284.3,
+        1295.4
+      ]
+    },
+    {
+      "episode_index": 109,
+      "camera": "observation.image",
+      "first_target": 1295.4999999999998,
+      "last_target": 1309.89999961853,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1295.5,
+        1309.9
+      ]
+    },
+    {
+      "episode_index": 110,
+      "camera": "observation.image",
+      "first_target": 1309.9999999999998,
+      "last_target": 1322.9999999999998,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1310.0,
+        1323.0
+      ]
+    },
+    {
+      "episode_index": 111,
+      "camera": "observation.image",
+      "first_target": 1323.0999999999997,
+      "last_target": 1332.7999998092648,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1323.1,
+        1332.8
+      ]
+    },
+    {
+      "episode_index": 112,
+      "camera": "observation.image",
+      "first_target": 1332.8999999999996,
+      "last_target": 1339.8999999999996,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1332.9,
+        1339.9
+      ]
+    },
+    {
+      "episode_index": 113,
+      "camera": "observation.image",
+      "first_target": 1339.9999999999995,
+      "last_target": 1354.8000001907344,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1340.0,
+        1354.8
+      ]
+    },
+    {
+      "episode_index": 114,
+      "camera": "observation.image",
+      "first_target": 1354.8999999999996,
+      "last_target": 1371.29999961853,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1354.9,
+        1371.3
+      ]
+    },
+    {
+      "episode_index": 115,
+      "camera": "observation.image",
+      "first_target": 1371.3999999999996,
+      "last_target": 1381.0000003814694,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1371.4,
+        1381.0
+      ]
+    },
+    {
+      "episode_index": 116,
+      "camera": "observation.image",
+      "first_target": 1381.0999999999997,
+      "last_target": 1398.8000007629391,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1381.1,
+        1398.8
+      ]
+    },
+    {
+      "episode_index": 117,
+      "camera": "observation.image",
+      "first_target": 1398.8999999999996,
+      "last_target": 1410.3999999999996,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1398.9,
+        1410.4
+      ]
+    },
+    {
+      "episode_index": 118,
+      "camera": "observation.image",
+      "first_target": 1410.4999999999995,
+      "last_target": 1420.6000003814693,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1410.5,
+        1420.6
+      ]
+    },
+    {
+      "episode_index": 119,
+      "camera": "observation.image",
+      "first_target": 1420.6999999999996,
+      "last_target": 1432.6999999999996,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1420.7,
+        1432.7
+      ]
+    },
+    {
+      "episode_index": 120,
+      "camera": "observation.image",
+      "first_target": 1432.7999999999995,
+      "last_target": 1439.200000095367,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1432.8,
+        1439.2
+      ]
+    },
+    {
+      "episode_index": 121,
+      "camera": "observation.image",
+      "first_target": 1439.2999999999995,
+      "last_target": 1452.9000003814692,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1439.3,
+        1452.9
+      ]
+    },
+    {
+      "episode_index": 122,
+      "camera": "observation.image",
+      "first_target": 1452.9999999999995,
+      "last_target": 1464.8000001907344,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1453.0,
+        1464.8
+      ]
+    },
+    {
+      "episode_index": 123,
+      "camera": "observation.image",
+      "first_target": 1464.8999999999996,
+      "last_target": 1485.29999961853,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1464.9,
+        1485.3
+      ]
+    },
+    {
+      "episode_index": 124,
+      "camera": "observation.image",
+      "first_target": 1485.3999999999996,
+      "last_target": 1500.0999998092648,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1485.4,
+        1500.1
+      ]
+    },
+    {
+      "episode_index": 125,
+      "camera": "observation.image",
+      "first_target": 1500.1999999999996,
+      "last_target": 1516.0000001907345,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1500.2,
+        1516.0
+      ]
+    },
+    {
+      "episode_index": 126,
+      "camera": "observation.image",
+      "first_target": 1516.0999999999997,
+      "last_target": 1533.0999999999997,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1516.1,
+        1533.1
+      ]
+    },
+    {
+      "episode_index": 127,
+      "camera": "observation.image",
+      "first_target": 1533.1999999999996,
+      "last_target": 1547.1999999999996,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1533.2,
+        1547.2
+      ]
+    },
+    {
+      "episode_index": 128,
+      "camera": "observation.image",
+      "first_target": 1547.2999999999995,
+      "last_target": 1556.7999999999995,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1547.3,
+        1556.8
+      ]
+    },
+    {
+      "episode_index": 129,
+      "camera": "observation.image",
+      "first_target": 1556.8999999999994,
+      "last_target": 1572.3999999999994,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1556.9,
+        1572.4
+      ]
+    },
+    {
+      "episode_index": 130,
+      "camera": "observation.image",
+      "first_target": 1572.4999999999993,
+      "last_target": 1587.600000381469,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1572.5,
+        1587.6
+      ]
+    },
+    {
+      "episode_index": 131,
+      "camera": "observation.image",
+      "first_target": 1587.6999999999994,
+      "last_target": 1605.9000007629388,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1587.7,
+        1605.9
+      ]
+    },
+    {
+      "episode_index": 132,
+      "camera": "observation.image",
+      "first_target": 1605.9999999999993,
+      "last_target": 1621.3999996185296,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1606.0,
+        1621.4
+      ]
+    },
+    {
+      "episode_index": 133,
+      "camera": "observation.image",
+      "first_target": 1621.4999999999993,
+      "last_target": 1634.4999999999993,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1621.5,
+        1634.5
+      ]
+    },
+    {
+      "episode_index": 134,
+      "camera": "observation.image",
+      "first_target": 1634.5999999999992,
+      "last_target": 1646.7999998092644,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1634.6,
+        1646.8
+      ]
+    },
+    {
+      "episode_index": 135,
+      "camera": "observation.image",
+      "first_target": 1646.8999999999992,
+      "last_target": 1657.0999998092643,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1646.9,
+        1657.1
+      ]
+    },
+    {
+      "episode_index": 136,
+      "camera": "observation.image",
+      "first_target": 1657.1999999999991,
+      "last_target": 1669.5999996185294,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1657.2,
+        1669.6
+      ]
+    },
+    {
+      "episode_index": 137,
+      "camera": "observation.image",
+      "first_target": 1669.6999999999991,
+      "last_target": 1678.8000003814689,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1669.7,
+        1678.8
+      ]
+    },
+    {
+      "episode_index": 138,
+      "camera": "observation.image",
+      "first_target": 1678.8999999999992,
+      "last_target": 1697.3999999999992,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1678.9,
+        1697.4
+      ]
+    },
+    {
+      "episode_index": 139,
+      "camera": "observation.image",
+      "first_target": 1697.499999999999,
+      "last_target": 1707.8999996185294,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1697.5,
+        1707.9
+      ]
+    },
+    {
+      "episode_index": 140,
+      "camera": "observation.image",
+      "first_target": 1707.999999999999,
+      "last_target": 1719.1000003814688,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1708.0,
+        1719.1
+      ]
+    },
+    {
+      "episode_index": 141,
+      "camera": "observation.image",
+      "first_target": 1719.1999999999991,
+      "last_target": 1737.6999999999991,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1719.2,
+        1737.7
+      ]
+    },
+    {
+      "episode_index": 142,
+      "camera": "observation.image",
+      "first_target": 1737.799999999999,
+      "last_target": 1749.9000003814688,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1737.8,
+        1749.9
+      ]
+    },
+    {
+      "episode_index": 143,
+      "camera": "observation.image",
+      "first_target": 1749.999999999999,
+      "last_target": 1764.499999999999,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1750.0,
+        1764.5
+      ]
+    },
+    {
+      "episode_index": 144,
+      "camera": "observation.image",
+      "first_target": 1764.599999999999,
+      "last_target": 1777.7999998092641,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1764.6,
+        1777.8
+      ]
+    },
+    {
+      "episode_index": 145,
+      "camera": "observation.image",
+      "first_target": 1777.899999999999,
+      "last_target": 1794.5000003814687,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1777.9,
+        1794.5
+      ]
+    },
+    {
+      "episode_index": 146,
+      "camera": "observation.image",
+      "first_target": 1794.599999999999,
+      "last_target": 1804.7999998092641,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1794.6,
+        1804.8
+      ]
+    },
+    {
+      "episode_index": 147,
+      "camera": "observation.image",
+      "first_target": 1804.899999999999,
+      "last_target": 1821.0000003814687,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1804.9,
+        1821.0
+      ]
+    },
+    {
+      "episode_index": 148,
+      "camera": "observation.image",
+      "first_target": 1821.099999999999,
+      "last_target": 1828.7999998092641,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1821.1,
+        1828.8
+      ]
+    },
+    {
+      "episode_index": 149,
+      "camera": "observation.image",
+      "first_target": 1828.899999999999,
+      "last_target": 1842.5000003814687,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1828.9,
+        1842.5
+      ]
+    },
+    {
+      "episode_index": 150,
+      "camera": "observation.image",
+      "first_target": 1842.599999999999,
+      "last_target": 1853.7999998092641,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1842.6,
+        1853.8
+      ]
+    },
+    {
+      "episode_index": 151,
+      "camera": "observation.image",
+      "first_target": 1853.899999999999,
+      "last_target": 1869.0000003814687,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1853.9,
+        1869.0
+      ]
+    },
+    {
+      "episode_index": 152,
+      "camera": "observation.image",
+      "first_target": 1869.099999999999,
+      "last_target": 1884.4000001907339,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1869.1,
+        1884.4
+      ]
+    },
+    {
+      "episode_index": 153,
+      "camera": "observation.image",
+      "first_target": 1884.499999999999,
+      "last_target": 1894.1000003814688,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1884.5,
+        1894.1
+      ]
+    },
+    {
+      "episode_index": 154,
+      "camera": "observation.image",
+      "first_target": 1894.1999999999991,
+      "last_target": 1904.000000190734,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1894.2,
+        1904.0
+      ]
+    },
+    {
+      "episode_index": 155,
+      "camera": "observation.image",
+      "first_target": 1904.0999999999992,
+      "last_target": 1913.400000190734,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1904.1,
+        1913.4
+      ]
+    },
+    {
+      "episode_index": 156,
+      "camera": "observation.image",
+      "first_target": 1913.4999999999993,
+      "last_target": 1922.3999996185296,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1913.5,
+        1922.4
+      ]
+    },
+    {
+      "episode_index": 157,
+      "camera": "observation.image",
+      "first_target": 1922.4999999999993,
+      "last_target": 1933.8000001907342,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1922.5,
+        1933.8
+      ]
+    },
+    {
+      "episode_index": 158,
+      "camera": "observation.image",
+      "first_target": 1933.8999999999994,
+      "last_target": 1944.2999996185297,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1933.9,
+        1944.3
+      ]
+    },
+    {
+      "episode_index": 159,
+      "camera": "observation.image",
+      "first_target": 1944.3999999999994,
+      "last_target": 1953.7000001907343,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1944.4,
+        1953.7
+      ]
+    },
+    {
+      "episode_index": 160,
+      "camera": "observation.image",
+      "first_target": 1953.7999999999995,
+      "last_target": 1968.4000003814692,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1953.8,
+        1968.4
+      ]
+    },
+    {
+      "episode_index": 161,
+      "camera": "observation.image",
+      "first_target": 1968.4999999999995,
+      "last_target": 1982.1000003814693,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1968.5,
+        1982.1
+      ]
+    },
+    {
+      "episode_index": 162,
+      "camera": "observation.image",
+      "first_target": 1982.1999999999996,
+      "last_target": 1998.1999999999996,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1982.2,
+        1998.2
+      ]
+    },
+    {
+      "episode_index": 163,
+      "camera": "observation.image",
+      "first_target": 1998.2999999999995,
+      "last_target": 2005.7999999999995,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        1998.3,
+        2005.8
+      ]
+    },
+    {
+      "episode_index": 164,
+      "camera": "observation.image",
+      "first_target": 2005.8999999999994,
+      "last_target": 2018.3999999999994,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2005.9,
+        2018.4
+      ]
+    },
+    {
+      "episode_index": 165,
+      "camera": "observation.image",
+      "first_target": 2018.4999999999993,
+      "last_target": 2037.7000007629388,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2018.5,
+        2037.7
+      ]
+    },
+    {
+      "episode_index": 166,
+      "camera": "observation.image",
+      "first_target": 2037.7999999999993,
+      "last_target": 2048.1999996185295,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2037.8,
+        2048.2
+      ]
+    },
+    {
+      "episode_index": 167,
+      "camera": "observation.image",
+      "first_target": 2048.2999999999993,
+      "last_target": 2062.1999996185295,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2048.3,
+        2062.2
+      ]
+    },
+    {
+      "episode_index": 168,
+      "camera": "observation.image",
+      "first_target": 2062.2999999999993,
+      "last_target": 2070.6999996185295,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2062.3,
+        2070.7
+      ]
+    },
+    {
+      "episode_index": 169,
+      "camera": "observation.image",
+      "first_target": 2070.7999999999993,
+      "last_target": 2084.100000190734,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2070.8,
+        2084.1
+      ]
+    },
+    {
+      "episode_index": 170,
+      "camera": "observation.image",
+      "first_target": 2084.1999999999994,
+      "last_target": 2097.0999996185296,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2084.2,
+        2097.1
+      ]
+    },
+    {
+      "episode_index": 171,
+      "camera": "observation.image",
+      "first_target": 2097.1999999999994,
+      "last_target": 2108.5999996185296,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2097.2,
+        2108.6
+      ]
+    },
+    {
+      "episode_index": 172,
+      "camera": "observation.image",
+      "first_target": 2108.6999999999994,
+      "last_target": 2116.3999998092645,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2108.7,
+        2116.4
+      ]
+    },
+    {
+      "episode_index": 173,
+      "camera": "observation.image",
+      "first_target": 2116.4999999999995,
+      "last_target": 2129.4999999999995,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2116.5,
+        2129.5
+      ]
+    },
+    {
+      "episode_index": 174,
+      "camera": "observation.image",
+      "first_target": 2129.5999999999995,
+      "last_target": 2154.0999999999995,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2129.6,
+        2154.1
+      ]
+    },
+    {
+      "episode_index": 175,
+      "camera": "observation.image",
+      "first_target": 2154.1999999999994,
+      "last_target": 2168.6999999999994,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2154.2,
+        2168.7
+      ]
+    },
+    {
+      "episode_index": 176,
+      "camera": "observation.image",
+      "first_target": 2168.7999999999993,
+      "last_target": 2177.600000190734,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2168.8,
+        2177.6
+      ]
+    },
+    {
+      "episode_index": 177,
+      "camera": "observation.image",
+      "first_target": 2177.6999999999994,
+      "last_target": 2190.300000381469,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2177.7,
+        2190.3
+      ]
+    },
+    {
+      "episode_index": 178,
+      "camera": "observation.image",
+      "first_target": 2190.399999999999,
+      "last_target": 2205.0999998092643,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2190.4,
+        2205.1
+      ]
+    },
+    {
+      "episode_index": 179,
+      "camera": "observation.image",
+      "first_target": 2205.1999999999994,
+      "last_target": 2220.5999996185296,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2205.2,
+        2220.6
+      ]
+    },
+    {
+      "episode_index": 180,
+      "camera": "observation.image",
+      "first_target": 2220.6999999999994,
+      "last_target": 2237.5999996185296,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2220.7,
+        2237.6
+      ]
+    },
+    {
+      "episode_index": 181,
+      "camera": "observation.image",
+      "first_target": 2237.6999999999994,
+      "last_target": 2248.300000381469,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2237.7,
+        2248.3
+      ]
+    },
+    {
+      "episode_index": 182,
+      "camera": "observation.image",
+      "first_target": 2248.399999999999,
+      "last_target": 2253.899999999999,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2248.4,
+        2253.9
+      ]
+    },
+    {
+      "episode_index": 183,
+      "camera": "observation.image",
+      "first_target": 2253.999999999999,
+      "last_target": 2267.800000190734,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2254.0,
+        2267.8
+      ]
+    },
+    {
+      "episode_index": 184,
+      "camera": "observation.image",
+      "first_target": 2267.899999999999,
+      "last_target": 2290.6999992370597,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2267.9,
+        2290.7
+      ]
+    },
+    {
+      "episode_index": 185,
+      "camera": "observation.image",
+      "first_target": 2290.7999999999993,
+      "last_target": 2297.100000190734,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2290.8,
+        2297.1
+      ]
+    },
+    {
+      "episode_index": 186,
+      "camera": "observation.image",
+      "first_target": 2297.1999999999994,
+      "last_target": 2306.300000381469,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2297.2,
+        2306.3
+      ]
+    },
+    {
+      "episode_index": 187,
+      "camera": "observation.image",
+      "first_target": 2306.399999999999,
+      "last_target": 2320.7999996185295,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2306.4,
+        2320.8
+      ]
+    },
+    {
+      "episode_index": 188,
+      "camera": "observation.image",
+      "first_target": 2320.899999999999,
+      "last_target": 2331.2999996185295,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2320.9,
+        2331.3
+      ]
+    },
+    {
+      "episode_index": 189,
+      "camera": "observation.image",
+      "first_target": 2331.399999999999,
+      "last_target": 2347.2999996185295,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2331.4,
+        2347.3
+      ]
+    },
+    {
+      "episode_index": 190,
+      "camera": "observation.image",
+      "first_target": 2347.399999999999,
+      "last_target": 2367.6999992370597,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2347.4,
+        2367.7
+      ]
+    },
+    {
+      "episode_index": 191,
+      "camera": "observation.image",
+      "first_target": 2367.7999999999993,
+      "last_target": 2383.600000190734,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2367.8,
+        2383.6
+      ]
+    },
+    {
+      "episode_index": 192,
+      "camera": "observation.image",
+      "first_target": 2383.6999999999994,
+      "last_target": 2402.0999996185296,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2383.7,
+        2402.1
+      ]
+    },
+    {
+      "episode_index": 193,
+      "camera": "observation.image",
+      "first_target": 2402.1999999999994,
+      "last_target": 2414.5999996185296,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2402.2,
+        2414.6
+      ]
+    },
+    {
+      "episode_index": 194,
+      "camera": "observation.image",
+      "first_target": 2414.6999999999994,
+      "last_target": 2424.0999996185296,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2414.7,
+        2424.1
+      ]
+    },
+    {
+      "episode_index": 195,
+      "camera": "observation.image",
+      "first_target": 2424.1999999999994,
+      "last_target": 2434.0999996185296,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2424.2,
+        2434.1
+      ]
+    },
+    {
+      "episode_index": 196,
+      "camera": "observation.image",
+      "first_target": 2434.1999999999994,
+      "last_target": 2444.5999996185296,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2434.2,
+        2444.6
+      ]
+    },
+    {
+      "episode_index": 197,
+      "camera": "observation.image",
+      "first_target": 2444.6999999999994,
+      "last_target": 2461.300000381469,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2444.7,
+        2461.3
+      ]
+    },
+    {
+      "episode_index": 198,
+      "camera": "observation.image",
+      "first_target": 2461.399999999999,
+      "last_target": 2473.7999996185295,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2461.4,
+        2473.8
+      ]
+    },
+    {
+      "episode_index": 199,
+      "camera": "observation.image",
+      "first_target": 2473.899999999999,
+      "last_target": 2489.0999998092643,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2473.9,
+        2489.1
+      ]
+    },
+    {
+      "episode_index": 200,
+      "camera": "observation.image",
+      "first_target": 2489.1999999999994,
+      "last_target": 2505.800000381469,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2489.2,
+        2505.8
+      ]
+    },
+    {
+      "episode_index": 201,
+      "camera": "observation.image",
+      "first_target": 2505.899999999999,
+      "last_target": 2515.000000381469,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2505.9,
+        2515.0
+      ]
+    },
+    {
+      "episode_index": 202,
+      "camera": "observation.image",
+      "first_target": 2515.099999999999,
+      "last_target": 2531.7000003814687,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2515.1,
+        2531.7
+      ]
+    },
+    {
+      "episode_index": 203,
+      "camera": "observation.image",
+      "first_target": 2531.799999999999,
+      "last_target": 2546.699999618529,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2531.8,
+        2546.7
+      ]
+    },
+    {
+      "episode_index": 204,
+      "camera": "observation.image",
+      "first_target": 2546.799999999999,
+      "last_target": 2559.999999809264,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2546.8,
+        2560.0
+      ]
+    },
+    {
+      "episode_index": 205,
+      "camera": "observation.image",
+      "first_target": 2560.099999999999,
+      "last_target": 2564.900000190734,
+      "last_target_in_segment": true,
+      "tolerance_frames": 0.5,
+      "duration": 2565.0,
+      "fps": 10.0,
+      "codec": "libdav1d",
+      "decoded_timestamps": [
+        2560.1,
+        2564.9
+      ]
+    }
+  ],
+  "video_checks_truncated": false,
+  "rules": [
+    "required_columns",
+    "dimension",
+    "finite_values",
+    "episode_local_timestamp_order",
+    "global_index_boundary",
+    "episode_length",
+    "video_frame_range_half_frame_tolerance",
+    "video_decode_boundaries"
+  ],
+  "dataset_id": "16a6012e-32ad-439b-9cb6-1b0491f21e0b",
+  "dataset_revision": "7628202a2180972f291ba1bc6723834921e72c19",
+  "job_id": "810c0439-fcea-4271-8b20-56713917e722",
+  "attempt": 1,
+  "source_kind": "executed",
+  "data_source_kind": "public",
+  "params": {}
+}
