@@ -1,0 +1,11 @@
+{
+  "source_kind": "synthetic_demo",
+  "task_set": ["fixture_move"],
+  "seed": 42,
+  "metric_definition": "合成布尔结果仅验证汇总流程，无模型评测含义",
+  "trials": [
+    {"task":"fixture_move","success":true,"steps":12,"latency_ms":3.5},
+    {"task":"fixture_move","success":true,"steps":16,"latency_ms":4.5}
+  ],
+  "notes": "平台浏览器联调人工构造，不能作为策略能力证据"
+}
