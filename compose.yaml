@@ -1,0 +1,76 @@
+name: embodied-data-lab
+x-backend: &backend
+  build:
+    context: .
+    dockerfile: backend/Dockerfile
+  environment:
+    DATABASE_URL: postgresql+psycopg://embodied:embodied_local_only@db:5432/embodied_lab
+    STORAGE_ROOT: /app/storage
+    LEASE_SECONDS: 15
+    HEARTBEAT_SECONDS: 3
+    POLL_SECONDS: 0.5
+  volumes:
+    - ./storage:/app/storage
+  restart: unless-stopped
+
+services:
+  db:
+    image: postgres:16.15-bookworm
+    environment:
+      POSTGRES_USER: embodied
+      POSTGRES_PASSWORD: embodied_local_only
+      POSTGRES_DB: embodied_lab
+    ports:
+      - "127.0.0.1:55433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U embodied -d embodied_lab"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+  api:
+    <<: *backend
+    command: ["sh", "-c", "alembic upgrade head && exec uvicorn app.main:app --host 0.0.0.0 --port 8000 --timeout-graceful-shutdown 3"]
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=3)"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 15s
+  worker:
+    <<: *backend
+    command: ["python", "-m", "app.worker", "--id", "compose-worker"]
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-m", "app.worker", "--health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    ports:
+      - "127.0.0.1:8080:80"
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

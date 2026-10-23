@@ -1,0 +1,30 @@
+[project]
+name = "embodied-data-lab"
+version = "0.1.0"
+description = "Local embodied dataset and experiment workbench"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "fastapi==0.115.12", "uvicorn==0.34.3", "pydantic==2.11.5",
+  "pydantic-settings==2.9.1", "sqlalchemy==2.0.41", "psycopg[binary]==3.2.9",
+  "alembic==1.16.1", "pyarrow==23.0.1", "av==17.0.0",
+  "huggingface-hub==1.7.1", "requests==2.32.5", "numpy==2.2.6"
+]
+
+[dependency-groups]
+dev = ["pytest==8.3.5", "httpx==0.28.1", "ruff==0.11.13"]
+
+[tool.pytest.ini_options]
+pythonpath = ["backend", "."]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+
+[tool.ruff.lint.per-file-ignores]
+# These pytest modules explicitly import shared real-PostgreSQL fixtures, then inject them by name.
+"tests/test_worker_*.py" = ["F811"]
+"tests/test_adapter.py" = ["E402"]
